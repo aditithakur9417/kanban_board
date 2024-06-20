@@ -1,0 +1,57 @@
+
+  .truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card {
+    width: 100%;
+    /* max-width: 300px; */
+    height: 130px; /* Set a static height */
+    text-align: left;
+    padding: 15px 15px;
+    border: 1px solid #eae3e3f6;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #fff;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0); */
+    box-sizing: border-box; /* Include padding and border in width */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure content is spaced properly */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+  }
+  
+  .card-title {
+   
+    font-weight: bold;
+  }
+  .card-tag{
+    align-items: center;
+  }
+  .card-body {
+    flex: 1;
+    overflow: hidden;
+  }
+  .card-user{
+    align-self: flex-start;
+    border: 1px solid #eae3e3f6;
+    border-radius: 5px;
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+ .card-tag-icon{
+  align-self:center;
+  border: 1px solid #eae3e3f6;
+  border-radius: 5px;
+  padding: 3px 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ }
